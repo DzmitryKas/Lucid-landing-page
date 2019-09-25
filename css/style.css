@@ -67,7 +67,7 @@ li {
   margin-bottom: 66px;
 }
 
-.full-button {
+.button:hover {
   width: 160px;
   height: 50px;
   color:white;
@@ -86,7 +86,7 @@ li {
   border: 2px solid #505155;
   border-radius: 2px;
   background: none;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .header-phone {
@@ -135,7 +135,275 @@ li {
   border: 2px solid #e1e1e1;
   width: 90px;
   height: 90px;
-  text-align: center;
-  /* display: table-cell;
-  vertical-align: middle */
+  margin: 0 auto;
+}
+
+.circle img {
+  align-self: center
+}
+
+.main-item__title {
+  font-family:'myriad', sans-serif;
+  font-size: 24px;
+  padding-top: 35px;
+  padding-bottom: 23px;
+}
+
+.main-item__content {
+  font-family:'myriad', sans-serif;
+  font-size: 18px;
+  color: #b7b7b7;
+  margin-bottom: 78px;
+}
+
+.line {   
+  height: 2px;
+  max-width: 1440px;
+  background: #ededed;
+  margin: 0 auto;
+}
+
+.section-phone {
+  padding-top: 65px;
+  padding-bottom: 77px;
+}
+
+.section-short-title {
+  font-family:'myriad', sans-serif;
+  font-size: 14px;
+  color: #008ed6;
+  text-transform: uppercase;
+  padding-top: 118px;
+}
+
+.section-title {
+  font-family:'myriad', sans-serif;
+  font-size: 36px;
+  position: relative;
+  margin-bottom: 66px;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background: #008ed6;
+  margin-top: 27px;
+  margin-left: 24px;
+}
+
+.section-title::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: #008ed6;
+  margin-top: 70px;
+  margin-left: 0px;
+  position: absolute;
+}
+
+.section-content {
+  color: #b7b7b7;
+  font-family:'myriad', sans-serif;
+  font-size: 18px;
+  padding-bottom: 43px;
+}
+
+.wrapper-item p {
+  display: inline-block;  
+  padding-bottom: 20px;
+  font-family:'myriad', sans-serif;
+  font-size: 18px;  
+  padding-left: 10px;
+}
+
+.wrapper-item img {
+  padding-bottom: 7px;
+}
+
+.customize-short-title {
+  font-family:'myriad', sans-serif;
+  font-size: 14px;
+  color: #008ed6;
+  text-transform: uppercase;
+  padding-top: 118px;
+}
+
+.customize-title {
+  font-family:'myriad', sans-serif;
+  font-size: 36px;
+  position: relative;
+  margin-bottom: 66px;
+}
+
+.customize-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background: #008ed6;
+  margin-top: 27px;
+  margin-left: 24px;
+}
+
+.customize-title::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: #008ed6;
+  margin-top: 70px;
+  margin-left: 0px;
+  position: absolute;
+}
+
+.customize-content {
+  color: #b7b7b7;
+  font-family:'myriad', sans-serif;
+  font-size: 18px;
+  padding-bottom: 43px;
+}
+
+.customize {
+  max-width: 1440px;
+  background: #f2f2f2;
+  margin: 0 auto;
+}
+
+.costomize-img {
+  padding-top: 65px;
+}
+
+.pricing-short-tiile {
+  font-family:'myriad', sans-serif;
+  font-size: 14px;
+  color: #008ed6;
+  text-transform: uppercase;
+  padding-top: 65px;
+}
+
+.pricing-title {
+  font-family:'myriad', sans-serif;
+  font-size: 36px;
+  position: relative;
+  margin-bottom: 118px;
+  color: white;
+}
+
+.pricing-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background: #008ed6;
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.pricing-title::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: #008ed6;
+  margin-top: 70px;
+  margin-left: -24px;
+  position: absolute;
+}
+
+.pricing {
+  background-image: url(../assets/img/section-backgraund.jpg);
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.pricing-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.wrapper-name-profession {
+  margin-left: 15px;
+}
+
+.pricing-content {
+  font-family:'myriad', sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+.wrapper-author {
+  margin-top: 30px;
+  margin-bottom: 190px;
+}
+
+.name {
+  font-family:'myriad', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.profession {
+  font-family:'myriad', sans-serif;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.great-theme-content {
+  font-family:'myriad', sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+.great-theme {
+  background: #15141a;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.plans-short-tiile {
+  font-family:'myriad', sans-serif;
+  font-size: 14px;
+  color: #008ed6;
+  text-transform: uppercase;
+  padding-top: 65px;
+}
+
+.plans-title {
+  font-family:'myriad', sans-serif;
+  font-size: 36px;
+  position: relative;
+  margin-bottom: 118px;
+  color: black;
+}
+
+.plans-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background: #008ed6;
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.plans-title::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: #008ed6;
+  margin-top: 70px;
+  margin-left: -24px;
+  position: absolute;
 }
