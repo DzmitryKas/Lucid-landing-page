@@ -1,0 +1,13 @@
+@font-face{
+  font-family: 'myriad';  
+  src: url('../assets/fonts/myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF');   
+  font-weight: normal;  
+  font-style: normal;  
+  }
+
+  @font-face{
+    font-family: 'Open Sans';  
+    src: url('../assets/fonts/Open_Sans/OpenSans-Light.ttf');      
+    font-weight: normal;  
+    font-style: normal;  
+    }  

@@ -1,0 +1,141 @@
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration:none;
+}
+
+li {
+  list-style-type: none; 
+ }
+
+.logo-first-part {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.wrapper-logo-second-part{
+  padding-top: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 9px;
+  color: #48484c;
+}
+
+.header {
+  background-image: url(../assets/img/header-backgraund.jpg);
+}
+
+.navigation__item a{
+  color:white;
+}
+
+.navigation {
+  max-width: 446px;
+}
+
+.header {
+  padding-top: 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 65px;
+}
+
+.header-short-title {
+  margin-top: 100px;
+  color: #008ed6;
+  font-family:'myriad', sans-serif;
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+.header-title {
+  color: white;
+  font-family:'myriad', sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.header-content {
+  color: #999999;
+  font-family:'myriad', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 34px;
+  margin-bottom: 66px;
+}
+
+.full-button {
+  width: 160px;
+  height: 50px;
+  color:white;
+  background: #008ed6;
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+}
+
+.button {
+  width: 160px;
+  height: 50px;
+  color:white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  border: 2px solid #505155;
+  border-radius: 2px;
+  background: none;
+  margin-left: 20px;
+}
+
+.header-phone {
+  margin-top: 60px;  
+}
+
+.main-short-tiile {
+  font-family:'myriad', sans-serif;
+  font-size: 14px;
+  color: #008ed6;
+  text-transform: uppercase;
+}
+
+.main-title {
+  font-family:'myriad', sans-serif;
+  font-size: 36px;
+  position: relative;
+  margin-bottom: 118px;
+}
+
+.main-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background: #008ed6;
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.main-title::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: #008ed6;
+  margin-top: 70px;
+  margin-left: -24px;
+  position: absolute;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: none;
+  border: 2px solid #e1e1e1;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  /* display: table-cell;
+  vertical-align: middle */
+}
