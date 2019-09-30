@@ -370,6 +370,10 @@ li {
   margin: 0 auto;
 }
 
+.plans {
+  margin-bottom: 60px;
+}
+
 .plans-short-tiile {
   font-family:'myriad', sans-serif;
   font-size: 14px;
@@ -398,6 +402,129 @@ li {
 }
 
 .plans-title::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: #008ed6;
+  margin-top: 70px;
+  margin-left: -24px;
+  position: absolute;
+}
+
+.plans-item {
+  height: 492px;
+  width: 270px;
+  cursor: pointer;
+}
+
+.plans-item__title {
+  height: 70px;
+  width: 270px;
+  border: 2px solid #e0e0e0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.plans-item__price-month {
+  height: 152px;
+  width: 270px;
+  border: 2px solid #e0e0e0;
+  border-top: none; 
+}
+
+.plans-item__price {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 60px; 
+}
+
+.plans-item__price span {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;  
+}
+
+.plans-item__month {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px; 
+  color: #999999; 
+}
+
+.plans-item__description p {
+  padding: 50px 40px;
+  text-align: center;
+  color: #b4b4b4;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px; 
+}
+
+.plans-item__description span {
+  color: #008ed6;
+}
+
+.plans-item__description {
+  height: 270px;
+  width: 270px;
+  border: 2px solid #e0e0e0;
+  border-top: none;
+}
+
+.plans-item__button {
+  margin: 0 auto;
+  color: #008ed6;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  border: 2px solid #e0e0e0;
+  border-radius: 2px;
+  background: none;
+}
+
+.plans-item:hover .plans-item__title{
+  color: #008ed6;
+}
+
+.plans-item:hover .plans-item__price-month{
+  background: #008ed6;
+  color:white;
+}
+
+.plans-item:hover .plans-item__button {
+  background: #008ed6;
+  color:white;
+}
+
+.contact {
+  background: #ededed;
+}
+
+.contact-short-tiile {
+  font-family:'myriad', sans-serif;
+  font-size: 14px;
+  color: #008ed6;
+  text-transform: uppercase;
+  padding-top: 65px;
+}
+
+.contact-title {
+  font-family:'myriad', sans-serif;
+  font-size: 36px;
+  position: relative;
+  margin-bottom: 118px;
+  color: black;
+}
+
+.contact-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  background: #008ed6;
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.contact-title::before {
   content: "";
   display: block;
   height: 2px;
