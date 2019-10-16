@@ -495,6 +495,10 @@ li {
 
 .contact {
   background: #ededed;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 400px;
+  position: relative;
 }
 
 .contact-short-tiile {
@@ -533,4 +537,106 @@ li {
   margin-top: 70px;
   margin-left: -24px;
   position: absolute;
+}
+
+.contact-phone-fax {
+  text-decoration: none;
+}
+
+.icon-mobile, .icon-mail, .icon-location {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #008ed6;
+}
+
+.contact-phone-fax p {
+  font-family:'myriad', sans-serif;
+  font-size: 18px;
+  color: #999999;
+}
+
+.message {
+  height: 360px;
+  width: 770px;
+  background: #15141a;
+  position: absolute;
+  bottom: 0;
+  bottom: -70px;
+  right: calc(50% - 385px);
+}
+
+.wrapper-message {
+  margin-top: 61px;
+  margin-left: 70px;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  background-color: black;
+  margin-bottom: 20px;
+  color: #444348;
+  border: 2px solid #444348;
+  border-radius: 2px;
+}
+
+input::-webkit-input-placeholder  {
+  padding-left: 18px;
+}
+
+.message-textarea {
+  margin-left: 20px;
+
+}
+
+textarea {
+  height: 190px;
+  width: 300px;
+  resize:none;
+  color: #444348;
+  border: 2px solid #444348;
+  border-radius: 2px;
+  background-color: black;
+}
+
+textarea::-webkit-input-placeholder  {
+  padding: 18px;
+}
+
+.button-message {
+  margin-left: 530px;
+}
+
+.image-map {
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: black;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.seti {
+  margin: 0 auto;
+  padding-top: 55px;
+  margin-bottom: 33px;
+  width: 220px; 
+  font-size: 20px;  
+}
+
+.seti a {
+  color: #3a393e;
+}
+
+.copyright {
+  margin-bottom: 45px;
+  text-transform: uppercase;
+  color: #3a393e;
+  font-family:'myriad', sans-serif;
+  font-size: 14px;
+}
+
+.icon-twitter {
+  color: #008ed6;
 }
